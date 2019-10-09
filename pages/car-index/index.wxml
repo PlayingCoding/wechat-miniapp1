@@ -10,7 +10,7 @@
   </view>
   <view class="content">
     <view class="btn-wrap">
-      <view class="item" wx:for="{{list}}" data-id="{{item.id}}">
+      <view class="item" wx:for="{{list}}" data-id="{{item.id}}" bindtap="handleTap">
         <image src="{{item.image}}" />
         <text class="name">{{item.name}}</text>
       </view>

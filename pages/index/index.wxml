@@ -30,7 +30,7 @@
       </button>
     </view>
     <view class="btn-wrap">
-      <navigator url="/pages/worker/index">
+      <navigator url="/pages/worker-index/index">
         <image src="/static/home_btn2.png" />
       </navigator>
       <image src="/static/home_btn3.png" data-jump="/pages/cars/index" />

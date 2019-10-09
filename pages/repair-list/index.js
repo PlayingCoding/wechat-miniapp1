@@ -13,7 +13,7 @@ Page({
 
   getWorkerList(categoryId) {
     app.globalData.$api({
-      url: '/Worker/workerList',
+      url: '/Repair/repairList',
       data: {
         category_id: categoryId
       },
@@ -28,7 +28,7 @@ Page({
   handleTap(e) {
     const { id } = e.currentTarget.dataset
     wx.navigateTo({
-      url: `/pages/worker-detail/index?id=${id}`
+      url: `/pages/repair-detail/index?id=${id}`
     })
   }
 })

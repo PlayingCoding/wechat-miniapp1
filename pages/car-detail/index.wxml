@@ -1,0 +1,27 @@
+<view class="container">
+  <view class="banner">
+    <swiper class="swiper">
+      <swiper-item wx:for="{{banners}}" wx:for-index="idx" wx:key="idx">
+        <image class="slide-image" src="{{item}}" />
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="header">
+    <view class="title">{{detail.title}}</view>
+    <view class="header-info">
+      <view >{{detail.views}}人浏览过</view>
+      <view >增城区33.76公里</view>
+    </view>
+  </view>
+  <view class="header body">
+    <view >承接各类工程、清运项目</view>
+    <view >增城区33.有8年工作经验，技术熟练。</view>
+  </view>
+  <view class="header footer">
+    <view class="userinfo">
+      <image src="/static/touxiang.png" />
+      <text class="username">{{detail.name}}</text>
+    </view>
+    <view class="phone-btn">拨打电话{{detail.phone}}</view>
+  </view>
+</view>

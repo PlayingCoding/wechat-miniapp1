@@ -1,0 +1,77 @@
+.bg {
+  width: 100%;
+}
+
+.header {
+  margin-bottom: 10rpx;
+  padding: 34rpx 23rpx;
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header .title {
+  color: #000000;
+  font-size: 32rpx;
+}
+
+.header .header-info {
+  margin-top: 86rpx;
+  display: flex;
+  justify-content: space-between;
+  color: #707070;
+  font-size: 21rpx;
+}
+
+.body {
+  color: #000000;
+  font-size: 24rpx;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .userinfo image {
+  margin-bottom: 15rpx;
+  width: 79rpx;
+  height: 79rpx;
+}
+
+.footer .userinfo .username {
+  color: #707070;
+  font-size: 24rpx;
+}
+
+.phone-btn {
+  margin-top: 24rpx;
+  color: #fff;
+  text-align: center;
+  border-radius: 10rpx;
+  width: 680rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  background-color: #322CDA;
+}
+
+.banner {
+  width: 100%;
+  height: 312rpx;
+}
+
+.banner .swiper {
+  height: 312rpx;
+}
+
+.banner .slide-image {
+  width: 100%;
+  height: 312rpx;
+}

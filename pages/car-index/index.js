@@ -19,5 +19,12 @@ Page({
         })
       }
     });
+  },
+
+  handleTap(e) {
+    const { id } = e.currentTarget.dataset
+    wx.navigateTo({
+      url: `/pages/car-list/index?id=${id}`
+    })
   }
 })

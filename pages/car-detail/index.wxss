@@ -61,3 +61,17 @@
   line-height: 70rpx;
   background-color: #322CDA;
 }
+
+.banner {
+  width: 100%;
+  height: 312rpx;
+}
+
+.banner .swiper {
+  height: 312rpx;
+}
+
+.banner .slide-image {
+  width: 100%;
+  height: 312rpx;
+}

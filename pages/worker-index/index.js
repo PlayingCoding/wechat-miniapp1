@@ -1,5 +1,3 @@
-//index.js
-//获取应用实例
 const app = getApp()
 
 Page({
@@ -23,8 +21,8 @@ Page({
 
   handleTap(e) {
     const { id } = e.currentTarget.dataset
-    wx.redirectTo({
-      url: '/pages/worker-list/index?id=1'
+    wx.navigateTo({
+      url: `/pages/worker-list/index?id=${id}`
     })
   }
 })
