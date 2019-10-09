@@ -29,7 +29,7 @@
 }
 
 .item .text-box {
-  margin-left: 143rpx;
+  margin-left: 120rpx;
   padding-right: 20rpx;
   border-bottom: 1rpx solid #BABABA;
 }
@@ -54,4 +54,30 @@
   margin: 10px 0;
   color: #999999;
   font-size: 20rpx;
+}
+
+.msg-img {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 91rpx;
+  height: 91rpx;
+  border-radius: 100%;
+  background-color: #6EADF3;
+}
+
+.msg-img .msg-icon {
+  width: 38rpx;
+  height: 33rpx;
+}
+
+.msg-img .unread {
+  position: absolute;
+  top: 4rpx;
+  right: 4rpx;
+  width: 18rpx;
+  height: 18rpx;
+  border-radius: 100%;
+  background-color: #FF323E;
 }

@@ -1,23 +1,27 @@
 <view class="container">
   <view class="tab">
-    <view class="tab-text current">通知列表</view>
-    <view class="tab-text">公告列表</view>
+    <view 
+      class="tab-text {{active === 1 ? 'current' : ''}}"
+      data-index="1"
+      bindtap="handleTab"
+    >通知列表</view>
+    <view 
+      class="tab-text {{active === 2 ? 'current' : ''}}"
+      data-index="2" 
+      bindtap="handleTab"
+    >公告列表</view>
   </view>
   <view class="content">
-    <view class="item">
-      <view class="text-box">
-        <view class="title">消息通知</view>
-        <view class="from">装修平台</view>
-        <view class="text">装修平台通知装修平台通知装修平台通知装修平台通知</view>
-        <view class="time">22个小时前</view>
+    <view class="item" wx:for="{{list}}" wx:key="id" data-id="{{item.id}}" bindtap="readMessage">
+      <view class="msg-img" wx:if="{{item.status === 0}}">
+        <view class="unread"></view>
+        <image class="msg-icon" src="/static/message-icon.png" />
       </view>
-    </view>
-    <view class="item">
       <view class="text-box">
-        <view class="title">消息通知</view>
+        <view class="title">{{item.title}}</view>
         <view class="from">装修平台</view>
-        <view class="text">装修平台通知装修平台通知装修平台通知装修平台通知</view>
-        <view class="time">22个小时前</view>
+        <view class="text">{{item.intro}}</view>
+        <view class="time">{{item.time}}</view>
       </view>
     </view>
   </view>

@@ -4,11 +4,13 @@ const app = getApp()
 
 Page({
   data: {
-    noticeList: []
+    noticeList: [],
+    unreadNum: 0
   },
 
   onLoad: function () {
     this.getNoticeList()
+    this.getMessageUnreadNum()
   },
 
   bindGetUserInfo(dataObj) {
@@ -85,6 +87,17 @@ Page({
       url: '/Message/noticeList',
       success: ({ data }) => {
         console.log(data)
+      }
+    })
+  },
+
+  getMessageUnreadNum() {
+    app.globalData.$api({
+      url: '/Message/unreadNum',
+      success: ({ data }) => {
+        this.setData({
+          unreadNum: data.num
+        })
       }
     })
   }

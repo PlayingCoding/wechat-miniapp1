@@ -49,6 +49,21 @@
   height: 30rpx;
 }
 
+.msg-box {
+  position: relative;
+}
+
+.unreadNum {
+  position: absolute;
+  top: -14rpx;
+  right: -6rpx;
+  padding: 2rpx 4rpx;
+  background-color: #FF323E;
+  color: #fff;
+  font-size: 24rpx;
+  border-radius: 20rpx;
+}
+
 .header .msg-icon {
   width: 40rpx;
   height: 45rpx;

@@ -63,9 +63,9 @@ const $api = apiParams => {
           duration: 2000
         })
 
-        wx.switchTab({
-          url: '/pages/index/index'
-        })
+        // wx.switchTab({
+        //   url: '/pages/index/index'
+        // })
       } else {
         apiParams.success(resData)
       }

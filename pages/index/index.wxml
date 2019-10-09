@@ -7,7 +7,12 @@
       <input class="input" type="text"/>
       <image class="search-icon" src="/static/search_icon.png" />
     </view>
-    <image class="msg-icon" src="/static/msg_icon.png" />
+    <navigator url="/pages/notice/index">
+      <view class="msg-box">
+        <view wx:if="{{unreadNum}}" class="unreadNum">{{unreadNum}}</view>
+        <image class="msg-icon" src="/static/msg_icon.png" />
+      </view>
+    </navigator>
   </view>
   <view class="banner">
     <swiper previous-margin="24rpx" next-margin="24rpx" class="swiper">
