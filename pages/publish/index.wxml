@@ -1,0 +1,85 @@
+<view class="container">
+  <form class="form">
+    <view class="user-info">
+      <view class="title">请完善您的个人信息</view>
+      <view class="section">
+        <view class="section__image__box">
+          <image class="section__image" src="/static/info_icon6.png" />
+        </view>
+        <view >
+          <view class="section__title">标题：</view>
+          <input class="input" name="input" placeholder="请填写标题" />
+        </view>
+      </view>
+      <view class="section">
+        <view class="section__image__box">
+          <image class="section__image" src="/static/info_icon6.png" />
+        </view>
+        <view >
+          <view class="section__title">车辆型号：</view>
+          <input class="input" name="input" placeholder="请填写车辆型号" />
+        </view>
+      </view>
+      <view class="section">
+        <view class="section__image__box">
+          <image class="section__image" src="/static/info_icon3.png" />
+        </view>
+        <view class="section__input__box">
+          <view class="section__title">姓名、工作经验：</view>
+          <view class="name-job">
+            <input class="input job-input" name="input" placeholder="请填写个人姓名" />
+            <view class="job-year">
+              <input class="input job-year-input" name="input" placeholder="工作经验" />
+              <text class="job-year-text">年</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="section">
+        <view class="section__image__box">
+          <image class="section__image" src="/static/info_icon4.png" />
+        </view>
+        <view >
+          <view class="section__title">可承接项目：</view>
+          <input class="input" name="input" placeholder="请填写可承接项目" />
+        </view>
+      </view>
+      <view class="section section__textarea">
+        <view class="section__image__box">
+          <image class="section__image" src="/static/info_icon1.png" />
+        </view>
+        <view class="textarea-box">
+          <view class="section__title">机械描述：(最多200字)</view>
+          <textarea class="textarea" name="input" placeholder="请填写详情" />
+        </view>
+      </view>
+      <view class="section section__uploader">
+        <uploader class="uploader" />
+      </view>
+      <view class="section">
+        <view class="section__image__box">
+          <image class="section__image" src="/static/info_icon5.png" />
+        </view>
+        <view >
+          <view class="section__title">联系人信息：</view>
+          <input class="input" name="input" placeholder="请填写联系人电话号码" />
+        </view>
+      </view>
+      <view class="section">
+        <view class="section__image__box">
+          <image class="section__image" src="/static/info_icon2.png" />
+        </view>
+        <view class="section__box">
+          <view class="section__title">
+            <text >选择区域可见：</text>
+            <text class="add__btn">添加地域</text>
+          </view>
+          <input class="input" name="input" placeholder="请选择可以看见的区域" />
+        </view>
+      </view>
+    </view>
+    <view class="btn-area">
+      <button class="btn">立即发布</button>
+    </view>
+  </form>
+</view>

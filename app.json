@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/publish/index",
     "pages/index/index",
     "pages/notice/index",
     "pages/city/index",

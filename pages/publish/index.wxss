@@ -1,0 +1,136 @@
+.form {
+  width: 100%;
+  background-color: #fff;
+}
+
+.user-info {
+  padding: 22rpx 40rpx 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 40rpx;
+  color: #333333;
+  font-size: 46rpx;
+  font-weight: 500;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50rpx;
+  border-bottom: 1rpx solid #E6E6E6;
+}
+
+.section .section__input__box {
+  flex: 1;
+}
+
+.section .input {
+  height: 72rpx;
+  font-size: 32rpx;
+  color: #8D8D8D;
+}
+
+.section__textarea {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.section__textarea .section__image__box {
+  align-self: flex-start;
+  margin-top: 26rpx;
+}
+
+.section .textarea {
+  margin-top: 16rpx;
+  height: 150rpx;
+  font-size: 32rpx;
+  color: #8D8D8D;
+}
+
+.section__uploader .uploader{
+  width: 100%;
+}
+
+.section .name-job {
+  display: flex;
+}
+
+.name-job .job-input {
+  flex: 1;
+}
+
+.name-job .job-year {
+  display: flex;
+  align-items: center;
+  width: 220rpx;
+}
+
+.name-job .job-year-input {
+  position: relative;
+  text-align: center;
+}
+
+.name-job .job-year-input::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 20rpx;
+  width: 1rpx;
+  height: 38rpx;
+  background-color: #DCDCDC;
+}
+
+.name-job .job-year-text {
+  font-size: 32rpx;
+}
+
+.section .section__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 28rpx;
+  width: 100%;
+}
+
+.section .section__box {
+  width: 100%;
+}
+
+.section .section__title .add__btn {
+  color: #2186F4;
+  font-size: 24rpx;
+}
+
+.section .section__image__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 27rpx;
+  width: 32rpx;
+  height: 52rpx;
+}
+
+.section__image__box .section__image {
+  width: 28rpx;
+  height: 38rpx;
+}
+
+.btn-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 100rpx;
+}
+
+.btn-area .btn {
+  color: #fff;
+  font-size: 32rpx;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #2186F4;
+  border-radius: 0; 
+}
+
