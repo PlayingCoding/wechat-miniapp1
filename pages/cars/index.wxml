@@ -1,0 +1,19 @@
+<!--home.wxml-->
+<view class="container home">
+  <image class="top-bg" src="/static/top_bg.png" />
+  <view class="banner">
+    <swiper previous-margin="24rpx" next-margin="24rpx" class="swiper">
+      <swiper-item>
+        <image src="/static/master_bg.png" class="slide-image"/>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="content">
+    <view class="btn-wrap">
+      <view class="item" wx:for="{{list}}" data-id="{{item.id}}">
+        <image src="{{item.image}}" />
+        <text class="name">{{item.name}}</text>
+      </view>
+    </view>
+  </view>
+</view>

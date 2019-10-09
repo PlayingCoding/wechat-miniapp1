@@ -1,0 +1,32 @@
+<view class="container">
+  <image class="top-bg" src="/static/login_icon1.png" />
+  <form class="register">
+    <view class="section">
+      <view class="icon-box">
+        <image src="/static/register_icon3.png" class="section-icon1" />
+      </view>
+      <input class="input" name="input" placeholder="请输入您的账号" />
+    </view>
+    <view class="section">
+      <view class="icon-box">
+        <image src="/static/register_icon4.png" class="section-icon2" />
+      </view>
+      <input class="input" name="input" placeholder="请输入您的密码" />
+    </view>
+    <view class="tip">
+      <navigator url="/pages/register/index">
+        <view>注册</view>
+      </navigator>
+      <view >忘记密码？</view>
+    </view>
+    <view class="btn-area">
+      <view class="btn-box">
+        <image src="/static/register_icon8.png" class="section-icon6" />
+      </view>
+    </view>
+    <view class="wxlogin">
+      <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">点击授权</button>
+      <image src="/static/login_icon2.png" class="section-icon7" />
+    </view>
+  </form>
+</view>

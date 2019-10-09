@@ -1,0 +1,21 @@
+<view class="container">
+  <image class="bg" src="/static/tu2.png" />
+  <view class="header">
+    <view class="title">承接各类工程、装修项目、清运项目</view>
+    <view class="header-info">
+      <view >102人浏览过</view>
+      <view >增城区33.76公里</view>
+    </view>
+  </view>
+  <view class="header body">
+    <view >承接各类工程、清运项目</view>
+    <view >增城区33.有8年工作经验，技术熟练。</view>
+  </view>
+  <view class="header footer">
+    <view class="userinfo">
+      <image src="/static/touxiang.png" />
+      <text class="username">刘师傅</text>
+    </view>
+    <view class="phone-btn">拨打电话1388****9876</view>
+  </view>
+</view>

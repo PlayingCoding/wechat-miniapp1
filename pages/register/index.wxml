@@ -1,0 +1,29 @@
+<view class="container">
+  <image class="top-bg" src="/static/register_icon6.png" />
+  <form class="register">
+    <view class="section">
+      <view class="icon-box">
+        <image src="/static/register_icon3.png" class="section-icon1" />
+      </view>
+      <input class="input" name="input" placeholder="请输入您的手机号" />
+    </view>
+    <view class="section">
+      <view class="icon-box">
+        <image src="/static/register_icon4.png" class="section-icon2" />
+      </view>
+      <input class="input" name="input" placeholder="请输入您的密码" />
+    </view>
+    <view class="section">
+      <view class="icon-box">
+        <image src="/static/register_icon2.png" class="section-icon3" />
+      </view>
+      <input class="input" name="input" placeholder="请输入您的验证码" />
+      <image src="/static/register_icon1.png" class="section-icon4" />
+    </view>
+    <view class="btn-area">
+      <image src="/static/register_icon7.png" class="section-icon5" />
+      <text class="agreement">我已阅读并同意《注册服务协议》</text>
+      <image src="/static/register_icon8.png" class="section-icon6" />
+    </view>
+  </form>
+</view>

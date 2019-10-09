@@ -1,0 +1,48 @@
+.content {
+  padding: 0 24rpx;
+}
+
+.content .big-btn {
+  margin-top: 25rpx;
+  width: 100%;
+}
+
+.content .big-btn .btn {
+  width: 100%;
+  height: 240rpx;
+}
+
+.content .big-btn.btn8 {
+  margin-top: 10rpx;
+  height: 159rpx;
+}
+
+.content .big-btn.btn8 .btn {
+  height: 159rpx;
+}
+
+.content .big-btn.btn9 {
+  position: fixed;
+  bottom: 28rpx;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.content .big-btn.btn9 .btn {
+  width: 279rpx;
+  height: 95rpx;
+}
+
+.content .btn-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 21rpx;
+}
+
+.content .btn-wrap image {
+  margin-bottom: 16rpx;
+  width: 223rpx;
+  height: 155rpx;
+}

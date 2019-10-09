@@ -1,0 +1,19 @@
+<!--home.wxml-->
+<view class="container home">
+  <image class="top-bg" src="/static/top_bg.png" />
+  <view class="banner">
+    <swiper previous-margin="24rpx" next-margin="24rpx" class="swiper">
+      <swiper-item>
+        <image src="/static/master_bg.png" class="slide-image"/>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="content">
+    <view class="btn-wrap">
+      <image src="/static/design_icon1.png" />
+      <image src="/static/design_icon2.png" />
+      <image src="/static/design_icon3.png" />
+      <image src="/static/design_icon4.png" />
+    </view>
+  </view>
+</view>

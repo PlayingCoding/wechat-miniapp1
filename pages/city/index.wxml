@@ -1,0 +1,3 @@
+<view class="container">
+  <list-html class="box" data="{{city}}" my-city binddetail="bindtap"></list-html>
+</view>

@@ -1,0 +1,8 @@
+.container {
+  width: 100%;
+  background-color: #fff;
+}
+
+.box {
+  width: 100%;
+}

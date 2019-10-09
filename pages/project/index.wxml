@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="content">
+    <view class="big-btn">
+      <image mode="aspectFit" class="btn" src="/static/project_btn1.png" />
+    </view>
+    <view class="btn-wrap">
+      <image src="/static/project_btn2.png" />
+      <image src="/static/project_btn3.png" />
+      <image src="/static/project_btn4.png" />
+      <image src="/static/project_btn5.png" />
+      <image src="/static/project_btn6.png" />
+      <image src="/static/project_btn7.png" />
+    </view>
+    <view class="big-btn btn8">
+      <image mode="aspectFit" class="btn" src="/static/project_btn8.png" />
+    </view>
+    <view class="big-btn btn9">
+      <image mode="aspectFit" class="btn" src="/static/project_btn9.png" />
+    </view>
+  </view>
+</view>

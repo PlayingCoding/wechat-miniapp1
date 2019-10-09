@@ -1,0 +1,36 @@
+<view class="container">
+  <view class="vip">
+    <view class="header">
+      <view class="title">用户昵称</view>
+      <view class="level">您目前的会员等级是<text>普通会员</text></view>
+      <view class="time">会员到期时间<text>无</text></view>
+    </view>
+    <view class="body">
+      <view class="title">升级高级会员</view>
+      <view class="vip-type">
+        <view class="type-box">
+          <view >购买一年</view>
+          <view >￥100</view>
+          <view >原价138</view>
+        </view>
+        <view class="or">or</view>
+        <view class="type-box current hot">
+          <view class="hot">推荐</view>
+          <view >购买一月</view>
+          <view >￥24</view>
+          <view >原价32</view>
+        </view>
+      </view>
+      <view class="deduction">返现金可抵扣</view>
+    </view>
+    <view class="payway">
+      <view class="title">选择支付方式</view>
+      <view class="way"></view>
+      <view class="way"></view>
+    </view>
+  </view>
+  <view class="btn-area">
+    <view class="pay-mount">总计：24</view>
+    <button class="btn">确认</button>
+  </view>
+</view>

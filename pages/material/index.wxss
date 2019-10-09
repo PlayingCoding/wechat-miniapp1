@@ -1,0 +1,95 @@
+.home {
+  
+}
+
+.top-bg {
+  position: fixed;
+  width: 100%;
+  height: 274rpx;
+}
+
+.home .header {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24rpx 0;
+  padding: 0 28rpx;
+  width: 100%;
+  z-index: 10;
+}
+
+.header .location {
+  color: #fff;
+  font-size: 31rpx;
+  font-weight: 500;
+}
+
+.header .search {
+  position: relative;
+  flex: 1;
+  padding: 0 26rpx;
+}
+
+.input {
+  padding-left: 12px;
+  padding-right: 72rpx;
+  height: 54rpx;
+  background: #7F63E6;
+  border-radius: 54rpx; 
+}
+
+.search-icon {
+  position: absolute;
+  top: 12rpx;
+  right: 56rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.header .msg-icon {
+  width: 40rpx;
+  height: 45rpx;
+}
+
+.home .banner {
+  margin-top: 24rpx;
+  width: 100%;
+  height: 312rpx;
+}
+
+.banner .swiper {
+  height: 312rpx;
+}
+
+.banner .slide-image {
+  width: 100%;
+  height: 312rpx;
+}
+
+.home .content {
+  padding: 0 24rpx;
+}
+
+.content .big-btn {
+  margin-top: 41rpx;
+  width: 100%;
+}
+
+.content .big-btn .btn {
+  width: 100%;
+  height: 240rpx;
+}
+
+.content .btn-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 21rpx;
+}
+
+.content .btn-wrap image {
+  margin-bottom: 16rpx;
+  width: 223rpx;
+  height: 155rpx;
+}

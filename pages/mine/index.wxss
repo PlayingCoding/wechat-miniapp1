@@ -1,0 +1,107 @@
+.container {
+  margin-bottom: 112rpx;
+  overflow: auto;
+  width: 100%;
+}
+
+.me-bg {
+  position: fixed;
+  width: 100%;
+  height: 390rpx;
+}
+
+.container .core-view {
+  width: 100%;
+  z-index: 10;
+}
+
+.core-view-common {
+  color: #666666;
+  font-size: 26rpx;
+}
+
+.core-view-common.info-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40rpx 0;
+}
+
+.core-view-box {
+  display: flex;
+  align-items: center;
+  margin-top: 16rpx;
+  padding: 24rpx 0;
+  background-color: #fff;
+}
+
+.core-view-box image {
+  margin-left: 30rpx;
+  margin-right: 10rpx;
+  width: 31rpx;
+  height: 31rpx;
+}
+
+.core-view-box.danger {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  color: #4A1AE6;
+}
+
+.info-view .header-pic {
+  width: 117rpx;
+  height: 117rpx;
+  border-radius: 100%; 
+  box-shadow: 0 0 10px rgba(0,21,41,.08);
+}
+
+.info-view .nickname {
+  margin-top: 15rpx;
+  font-size: 30rpx;
+  color: #fff;
+}
+
+.follow-view {
+  margin: 0 21rpx;
+  padding: 30rpx 0 44rpx;
+  background-color: #fff;
+  border-radius: 29rpx;
+}
+
+.follow-view .title {
+  margin: 0 34rpx;
+  padding-bottom: 19rpx;
+  border-bottom: 1rpx solid #EBEBEB; 
+}
+
+.follow-view .follow-boxs {
+  display: flex;
+  justify-content: space-around;
+  padding: 34rpx 24rpx 0;
+}
+
+.follow-view .follow-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .follow-view .follow-box::after {
+  content: "";
+  background-image: url('')
+} */
+
+.follow-view .follow-box image {
+  margin-bottom: 20rpx;
+  max-width: 62rpx;
+  height: 56rpx;
+}
+
+.follow-view .follow-box text {
+  font-size: 27rpx;
+  color: #B7B7BE;
+}

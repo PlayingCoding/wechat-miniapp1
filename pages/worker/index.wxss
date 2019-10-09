@@ -1,0 +1,64 @@
+.top-bg {
+  position: fixed;
+  width: 100%;
+  height: 274rpx;
+}
+
+.home .banner {
+  margin-top: 24rpx;
+  width: 100%;
+  height: 312rpx;
+}
+
+.banner .swiper {
+  height: 312rpx;
+}
+
+.banner .slide-image {
+  width: 100%;
+  height: 312rpx;
+}
+
+.home .content {
+  padding: 0 24rpx;
+}
+
+.content .big-btn {
+  margin-top: 41rpx;
+  width: 100%;
+}
+
+.content .big-btn .btn {
+  width: 100%;
+  height: 240rpx;
+}
+
+.content .btn-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 21rpx;
+}
+
+.content .btn-wrap .item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16rpx;
+  width: 223rpx;
+  height: 155rpx;
+  background-color: #fff;
+  border-radius: 8rpx;
+}
+
+.content .btn-wrap .item .name {
+  position: absolute;
+  bottom: 10rpx;
+  font-size: 24rpx;
+}
+
+.content .btn-wrap .item image {
+  width: 160rpx;
+  height: 120rpx;
+}

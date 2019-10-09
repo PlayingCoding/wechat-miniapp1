@@ -1,0 +1,24 @@
+<view class="container">
+  <view class="tab">
+    <view class="tab-text current">通知列表</view>
+    <view class="tab-text">公告列表</view>
+  </view>
+  <view class="content">
+    <view class="item">
+      <view class="text-box">
+        <view class="title">消息通知</view>
+        <view class="from">装修平台</view>
+        <view class="text">装修平台通知装修平台通知装修平台通知装修平台通知</view>
+        <view class="time">22个小时前</view>
+      </view>
+    </view>
+    <view class="item">
+      <view class="text-box">
+        <view class="title">消息通知</view>
+        <view class="from">装修平台</view>
+        <view class="text">装修平台通知装修平台通知装修平台通知装修平台通知</view>
+        <view class="time">22个小时前</view>
+      </view>
+    </view>
+  </view>
+</view>

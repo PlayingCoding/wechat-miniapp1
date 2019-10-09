@@ -1,0 +1,51 @@
+<view class="container">
+  <image class="me-bg" src="/static/me/me_bg.png" />
+  <view class="core-view">
+    <view class="core-view-common info-view">
+      <image class="header-pic" src="/static/me/me_pic.png" />
+      <text class="nickname">李某某</text>
+    </view>
+    <view class="follow-view">
+      <view class="title">我的</view>
+      <view class="follow-boxs">
+        <view class="follow-box">
+          <image mode="aspectFit" src="/static/me/me_icon1.png" />
+          <text>已经发布</text>
+        </view>
+        <view class="follow-box">
+          <image mode="aspectFit" src="/static/me/me_icon2.png" />
+          <text>会员升级</text>
+        </view>
+        <view class="follow-box">
+          <image mode="aspectFit" src="/static/me/me_icon3.png" />
+          <text>推广奖励</text>
+        </view>
+        <view class="follow-box">
+          <image mode="aspectFit" src="/static/me/me_icon4.png" />
+          <text>客服中心</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="core-view">
+    <view class="core-view-box">
+      <image src="/static/me/me_icon5.png" />
+      <view class="core-view-common">实名认证</view>
+    </view>
+    <navigator url="/pages/notice/index">
+      <view class="core-view-box">
+        <image src="/static/me/me_icon6.png" />
+        <view class="core-view-common">系统通知</view>
+      </view>
+    </navigator>
+    <view class="core-view-box">
+      <image src="/static/me/me_icon7.png" />
+      <view class="core-view-common">关于我们</view>
+    </view>
+  </view>
+  <view class="core-view">
+    <view class="core-view-box danger">
+      <text>退出登录</text>
+    </view>
+  </view>
+</view>

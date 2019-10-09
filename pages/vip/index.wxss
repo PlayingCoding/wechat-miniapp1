@@ -1,0 +1,153 @@
+.vip {
+  padding: 36rpx 38rpx 0 38rpx; 
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  border-top: 1rpx solid #EEEEEE;
+  box-sizing: border-box;
+}
+
+.header {
+  color: #666666;
+  font-size: 28rpx;
+}
+
+.header .title {
+  color: #333333;
+  font-size: 39rpx;
+}
+
+.header .level {
+  margin: 14rpx 0;
+}
+
+.body {
+
+}
+
+.body .title {
+  position: relative;
+  margin: 40rpx 0 37rpx;
+  color: #2186F4;
+  font-size: 35rpx;
+  text-align: center;
+}
+
+.body .title::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 15rpx;
+  width: 66rpx;
+  height: 3rpx;
+  background: rgba(33,134,244,1);
+}
+
+.body .title::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: -81rpx;
+  width: 66rpx;
+  height: 3rpx;
+  background: rgba(33,134,244,1);
+}
+
+.vip-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vip-type .or {
+  position: relative;
+  width: 109rpx;
+  text-align: center;
+  color: #999999;
+  font-size: 32rpx;
+}
+
+.vip-type .or::after {
+  content: '';
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  margin-left: 15rpx;
+  width: 24rpx;
+  height: 2rpx;
+  background-color: #999;
+}
+
+.vip-type .or::before {
+  content: '';
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  margin-left: -39rpx;
+  width: 24rpx;
+  height: 2rpx;
+  background-color: #999;
+}
+
+.vip-type .type-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 44rpx 0;
+  box-sizing: border-box;
+  width: 247rpx;
+  height: 281rpx;
+  border: 1rpx solid #ACACAC;
+  border-radius: 10rpx;
+}
+
+.vip-type .type-box.current {
+  background-color: #2186F4;
+  color: #fff;
+  border: 1rpx solid #2186F4;
+}
+
+.vip-type .type-box .hot {
+  position: absolute;
+  top: -1rpx;
+  left: -1rpx;
+  width: 90rpx;
+  height: 38rpx;
+  line-height: 38rpx;
+  background: rgba(110,173,243,1);
+  border-radius: 10rpx 0rpx 10rpx 0rpx;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.btn-area {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  height: 112rpx;
+  background-color: #2186F4;
+  font-size: 32rpx;
+  color: #fff;
+}
+
+.btn-area .pay-mount {
+  padding-left: 51rpx;
+  flex: 1;
+  line-height: 112rpx;
+}
+
+.btn-area .btn {
+  padding: 0;
+  margin: 0;
+  width: 242rpx;
+  line-height: 112rpx;
+  background-color: #6EADF3;
+  font-size: 32rpx;
+  color: #fff;
+  border-radius: 0;
+}

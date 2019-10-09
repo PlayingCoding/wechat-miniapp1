@@ -1,0 +1,43 @@
+<!--home.wxml-->
+<view class="container home">
+  <image class="top-bg" src="/static/top_bg.png" />
+  <view class="header">
+    <view class="location">东莞</view>
+    <view class="search">
+      <input class="input" type="text"/>
+      <image class="search-icon" src="/static/search_icon.png" />
+    </view>
+    <image class="msg-icon" src="/static/msg_icon.png" />
+  </view>
+  <view class="banner">
+    <swiper previous-margin="24rpx" next-margin="24rpx" class="swiper">
+      <swiper-item wx:for="{{noticeList}}" wx:key="id">
+        <navigator class="slide-navigator" url="{{item.content_url}}">
+          <image class="slide-image" src="{{item.image}}" />
+        </navigator>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="content">
+    <view class="big-btn">
+      <button
+        class="btn"
+        data-jump="/pages/material/index"
+        open-type="getUserInfo"
+        bindgetuserinfo="bindGetUserInfo"
+      >
+        <image src="/static/home_btn1.png" />
+      </button>
+    </view>
+    <view class="btn-wrap">
+      <navigator url="/pages/worker/index">
+        <image src="/static/home_btn2.png" />
+      </navigator>
+      <image src="/static/home_btn3.png" data-jump="/pages/cars/index" />
+      <image src="/static/home_btn4.png" data-jump="/pages/repair/index" />
+      <image src="/static/home_btn5.png" data-jump="/pages/recycle/index" />
+      <image src="/static/home_btn6.png" data-jump="/pages/design/index" />
+      <image src="/static/home_btn7.png" data-jump="/pages/material/index" />
+    </view>
+  </view>
+</view>

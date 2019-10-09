@@ -1,0 +1,23 @@
+<view class="container">
+  <form class="user-info">
+    <view class="title">请完善您的个人信息</view>
+    <view class="subtit">个人信息</view>
+    <view class="section">
+      <view class="section__title">姓名</view>
+      <input class="input" name="input" placeholder="请输您的姓名" />
+    </view>
+    <view class="section">
+      <view class="section__title">性别</view>
+      <picker bindchange="bindPickerChange" value="key" range-key="label" range="{{sexs}}">
+        <input class="input" disabled name="input" placeholder="请选择" />
+      </picker>
+    </view>
+    <view class="section">
+      <view class="section__title">身份证</view>
+      <input class="input" name="input" placeholder="请输入您的身份证号" />
+    </view>
+    <view class="btn-area">
+      <button class="btn">提交</button>
+    </view>
+  </form>
+</view>

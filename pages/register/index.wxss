@@ -1,0 +1,79 @@
+.top-bg {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+.register {
+  position: fixed;
+  bottom: 160rpx;
+  padding: 0px 87rpx 0 77rpx;
+  box-sizing: border-box;
+  width: 100%;
+  z-index: 100;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 34rpx;
+  padding: 0 17rpx;
+  height: 75rpx;
+  border-bottom: 1rpx solid #E6E6E6;
+}
+
+.icon-box {
+  display: flex;
+  justify-content: center;
+  width: 32rpx;
+}
+
+.section .section-icon1 {
+  width: 32rpx;
+  height: 38rpx;
+}
+
+.section .section-icon2 {
+  width: 22rpx;
+  height: 42rpx;
+}
+
+.section .section-icon3 {
+  width: 32rpx;
+  height: 35rpx;
+}
+
+.section .section-icon4 {
+  width: 170rpx;
+  height: 52rpx;
+}
+
+.section .input {
+  flex: 1;
+  margin-left: 25rpx;
+  font-size: 28rpx;
+  color: #8D8D8D;
+}
+
+.btn-area {
+  display: flex;
+  align-items: center;
+  padding: 0 21rpx;
+}
+
+.btn-area .section-icon5 {
+  width: 24rpx;
+  height: 25rpx;
+}
+
+.btn-area .section-icon6 {
+  width: 123rpx;
+  height: 123rpx;
+}
+
+.btn-area .agreement {
+  margin-left: 11rpx;
+  color: #0033A5;
+  font-size: 27rpx;
+}
+

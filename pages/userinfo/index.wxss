@@ -1,0 +1,49 @@
+.user-info {
+  padding: 52rpx 40rpx 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.title {
+  padding: 0 27rpx;
+  color: #333333;
+  font-size: 52rpx;
+  font-weight: 500;
+}
+
+.subtit {
+  margin-top: 31rpx;
+  margin-bottom: 52rpx;
+  padding: 0 27rpx;
+  color: #333333;
+  font-size: 32rpx;
+}
+
+.section {
+  margin-bottom: 34rpx;
+  padding: 0 27rpx;
+  border-bottom: 1rpx solid #E6E6E6;
+}
+
+.section .input {
+  height: 72rpx;
+  font-size: 28rpx;
+  color: #8D8D8D;
+}
+
+.btn-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 54rpx;
+}
+
+.btn-area .btn {
+  color: #fff;
+  width: 670rpx;
+  height: 80rpx;
+  background: rgba(33,134,244,1);
+  border-radius: 40rpx;
+}
+
