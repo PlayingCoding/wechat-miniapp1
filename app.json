@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/worker/index",
+    "pages/worker-list/index",
+    "pages/city/index",
+    "pages/cars/index",
+    "pages/repair/index",
+    "pages/login/index",
+    "pages/register/index",
+    "pages/vip/index",
+    "pages/userinfo/index",
+    "pages/design/index",
+    "pages/mine/index",
+    "pages/typecar/index",
+    "pages/typecar-detail/index",
+    "pages/notice/index",
+    "pages/project/index",
+    "pages/recycle/index",
+    "pages/material/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#888A96",
+    "selectedColor": "#4413E5",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/tab_icon1_0.png",
+        "selectedIconPath": "/static/tab_icon1.png"
+      },
+      {
+        "pagePath": "pages/project/index",
+        "text": "项目",
+        "iconPath": "/static/tab_icon2_0.png",
+        "selectedIconPath": "/static/tab_icon2.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "/static/tab_icon3_0.png",
+        "selectedIconPath": "/static/tab_icon1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
